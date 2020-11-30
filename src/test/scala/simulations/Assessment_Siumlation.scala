@@ -7,7 +7,7 @@ import scala.concurrent.duration._
 
 class Assessment_Siumlation extends Simulation {
 
-  val httpConf = http.baseUrl("http://localhost:5001")
+  val httpConf = http.baseUrl("http://python.52.15.219.198.xip.io")
     .header("Accept", "application/json")
 
   //configure the csv feeder
