@@ -10,7 +10,7 @@ class Assessment_Siumlation extends Simulation {
   val httpConf = http.baseUrl("http://python.52.15.219.198.xip.io")
     .header("Accept", "application/json")
 
-  //configure the csv feeder
+  //configure the csv feeder0
   val csvFeeder = csv("data/books_data.csv").circular
 
   private def getProperty(propertyName: String, defaultValue:String) = {
